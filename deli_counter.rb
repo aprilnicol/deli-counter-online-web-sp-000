@@ -20,4 +20,4 @@ def now_serving(katz_deli)
     puts "Currently serving #{served}."
     katz_deli.shift
   end
-end 
+end
