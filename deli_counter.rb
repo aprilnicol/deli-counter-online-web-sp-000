@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     puts "The line is currently empty."
   end
-end 
+end
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   place = katz_deli.index(name)+1
