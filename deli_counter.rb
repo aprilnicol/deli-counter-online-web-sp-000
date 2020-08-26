@@ -9,7 +9,7 @@ def line(katz_deli)
 end
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  space = katz_deli.index(name)+1
+  place = katz_deli.index(name)+1
   puts "Welcome, #{name}. You are number #{place} in line."
 end
 def now_serving(katz_deli)
